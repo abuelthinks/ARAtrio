@@ -1,0 +1,20 @@
+CREATE TABLE specialist_assessments (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    child_name VARCHAR(255) NOT NULL,
+    gender VARCHAR(10) NOT NULL,
+    reading_skill VARCHAR(20),
+    writing_skill VARCHAR(20),
+    mathematics_skill VARCHAR(20),
+    expressive_language VARCHAR(20),
+    receptive_language VARCHAR(20),
+    social_communication VARCHAR(20),
+    fine_motor VARCHAR(20),
+    gross_motor VARCHAR(20),
+    attention VARCHAR(20),
+    impulse_control VARCHAR(20),
+    social_interaction VARCHAR(20),
+    emotional_regulation VARCHAR(20),
+    strengths TEXT,
+    additional_info TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+); 
